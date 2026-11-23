@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024"><defs>
+<linearGradient id="base" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d3770"/><stop offset="1" stop-color="#0c1836"/></linearGradient>
+<linearGradient id="sw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22417f"/><stop offset="1" stop-color="#0f1f47"/></linearGradient>
+<linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a8bff"/><stop offset="1" stop-color="#1b55d6"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#45b4ff"/><stop offset="1" stop-color="#1f6ff0"/></linearGradient>
+<linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8f80fb"/><stop offset="1" stop-color="#5440d6"/></linearGradient>
+<linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#020818" flood-opacity=".55"/></filter>
+<filter id="glow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#2f6bff" flood-opacity=".55"/></filter>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58a6ff"/><stop offset="1" stop-color="#2a62e0"/></linearGradient></defs>
+<g filter="url(#glow)"><rect x="40" y="40" width="944" height="944" rx="180" fill="url(#base)" stroke="#3f6fd8" stroke-opacity=".7" stroke-width="6"/></g><g filter="url(#shadow)"><rect x="152" y="152" width="720" height="720" rx="112" fill="url(#accent)"/>
+<rect x="152" y="152" width="720" height="720" rx="112" fill="url(#gloss)" stroke="#fff" stroke-opacity=".25" stroke-width="4"/></g>
+<g transform="translate(512,512) scale(2.1)"><rect x="-78" y="-74" width="156" height="148" rx="16" fill="#ffffff" fill-opacity=".92" transform="rotate(-6)"/>
+<g transform="rotate(-6)"><rect x="-56" y="-52" width="70" height="12" rx="6" fill="#5a45dd"/><rect x="-56" y="-32" width="44" height="10" rx="5" fill="#5a45dd" fill-opacity=".5"/>
+<g fill="#3b2fa8"><rect x="-56" y="-12" width="8" height="56"/><rect x="-42" y="-12" width="4" height="56"/><rect x="-32" y="-12" width="12" height="56"/><rect x="-14" y="-12" width="4" height="56"/><rect x="-4" y="-12" width="8" height="56"/><rect x="10" y="-12" width="4" height="56"/><rect x="20" y="-12" width="12" height="56"/><rect x="38" y="-12" width="4" height="56"/><rect x="48" y="-12" width="8" height="56"/></g><circle cx="58" cy="-46" r="10" fill="none" stroke="#5a45dd" stroke-width="6"/></g></g><g filter="url(#shadow)"><rect x="132" y="132" width="204" height="204" rx="42" fill="url(#sw)"/>
+<rect x="132" y="132" width="204" height="204" rx="42" fill="url(#gloss)" stroke="#6f9cff" stroke-opacity=".5" stroke-width="5"/></g>
+<text x="234" y="269" font-size="96" font-family="Helvetica Neue, Arial, sans-serif" font-weight="700" letter-spacing="-4" fill="#fff" text-anchor="middle">SW</text>
+</svg>
